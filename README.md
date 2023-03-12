@@ -1,5 +1,5 @@
 # README #
-[English readme](#markdown-header-English)
+[English readme](#markdown-header-english)
 ## Windowed new view - 适用于Krita 5.0+的简易插件 ##
 
 ### 用途 ###
