@@ -1,4 +1,4 @@
-# README #
+## README ##
 [English readme](#markdown-header-english)
 ## Windowed new view - 适用于Krita 5.0+的简易插件 ##
 
@@ -6,13 +6,14 @@
 点击时新建当前文档的新视图，并自动窗口化和设为置顶
 
 ### 安装 ###
-1. 下载zip压缩包
+1. 下载zip压缩包（左边有个Downloads, 进去之后点Download repository直接下载）
 2. 使用Krita菜单中的工具→脚本→从文件导入 Python 插件
 3. 弹出对话框，点击“是”
 4. 重启Krita
 5. 工具→脚本里面多出来一个Open windowed new view选项
 6. 单击运行
 
+在确认安装成功之后，你就可以删除第一步下载的zip文件了  
 如果安装失败的话（绝无可能！），手动将windowed_new_view文件夹和windowed_new_view.desktop粘贴进
 
 C:\Users\\**用户名**\AppData\Roaming\krita\pykrita
@@ -28,6 +29,7 @@ C:\Users\\**用户名**\AppData\Roaming\krita\pykrita
 ### 其他 ###
 因为功能太简单了，所以我没有写配置快捷键的代码。
 这个插件的核心代码是
+
 ```python
 import krita
 from PyQt5.QtCore import Qt
@@ -64,13 +66,14 @@ menu.actions()[5].trigger()
 Creates a new view of the current document when clicked, automatically windowed it and set 'Always on top'.
 
 ### Installation ###
-1. Download the zip archive
+1. Download the zip archive (There is a "Downloads" on the left, go in and click on Download repository)
 2. Use Tools → Scripts → Import Python Plugin from File in the Krita menu
 3. A dialog box will pop up, click "Yes"
 4. Restart Krita
 5. Tools→Scripts now has an Open windowed new view option
 6. Click
 
+After installing successfully, you can delete the zip file you downloaded at the first step.  
 If the installation fails ( impossible! ), manually copy&paste the windowed_new_view folder and windowed_new_view.desktop into
 
 C:\Users\\**Username**\AppData\Roaming\krita\pykrita
@@ -88,6 +91,7 @@ Restart Krita again, done.
 ### Others ###
 I didn't think it was necessary, so I didn't code the feature for assigning shortcuts. But it's up to you.
 The core of the plugin is:
+
 ```python
 import krita
 from PyQt5.QtCore import Qt
