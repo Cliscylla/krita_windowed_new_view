@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--BBD's Krita Script Starter, Feb 2018 -->
+<head><title>Windowed new view</title>
+</head>
+<body>
+<h2>Windowed new view / 新建窗口化视图</h2>
+<p>Inspiration from: 
+    <a href="https://github.com/wojtryb/kritaSubwindowOrganizer">Subwindow Organizer</a>
+</p>
+A simple shortcut to create a small preview for your drawing.<br />
+This script creates a new view of current document, then windowing the new view and tick 'Always on top' for you.
+<br /><br />
+一个为当前画布创建小图预览的简易快捷方式<br />
+点击时打开一个当前文档的新视图，并自动窗口化和勾选“总在最前”。
+<h3>Usage / 用法</h3>
+Remember to config your Krita (Settings>Configure Krita>General>Window>Multiple Document Mode: Subwindows) to use subwindows to open new views. 
+Otherwise the new view will appear as both a tab and a subwindow.<br />
+Find this script in Tools>Scripts and click "Open windowed new view" to run.<br />
+<b>notice: The new view can also be edited, be careful not to draw on the small window until you want to.</b><br />
+<br />
+确认已经将 设置→配置Krita→常规→窗口→多图像模式 的选项设为“子窗口”，否则新视图将会同时显示为标签和子窗口。<br />
+在主菜单的 工具→脚本 中找到 “Open windowed new view”，点击运行<br />
+<b>注意：新视图同样可以编辑，小心笔不要落在小窗口上，除非你想这么干。</b><br />
+<h3>Why use this? / 使用这个插件的原因</h3>
+Zooming out on your drawing is good for control its overall impression, and creating a new view to put aside is what I've been using for so long.<br />
+Since the new view that Krita created won't be windowed and topped by default, I wrote this script to automate this operation.<br />
+I'm using Krita 5.1.5, for now, the built-in Overview docker still seems lagging. Using a new view instead is a preferred solution.<br />
+<i>Subwindow Organizer</i> is a great plugin with features like edge docking, but it was partially broken and didn't window the new view.<br />
+So I referred to its source code and wrote this script. If you want to write other scripts that control sub-windows, be sure to check it out as well.<br />
+<br />
+缩小画面观察你的画有利于掌握画面的整体感觉，而新建视图放在一旁是我一直在使用的方法。<br />
+但因为Krita的子窗口不会默认窗口化和置顶，所以我就自己写了脚本用来自动化这个操作。<br />
+我开发时使用的版本是Krita5.1.5，我的导航器面板依然有显示延迟的问题。目前新建视图是最好的解决方案。<br />
+Subwindow Organizer是一个很棒的插件，有边缘停靠等功能，但它有些功能失效了，并且也不会自动把新视图窗口化。<br />
+所以我参考它的源代码编写了这个脚本。如果你想写其他控制子窗口的脚本，请务必也看看它。
+</body>
+</html>

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=windowed_new_view
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Windowed new view
+Comment=Creates a new view of the current document that is windowed and always on top on click
