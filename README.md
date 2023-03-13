@@ -1,8 +1,8 @@
 ## README ##
 [English readme](#markdown-header-english)
 ## Windowed new view - 适用于Krita 5.0+的简易插件 ##
-v1.0 发布
-v1.1 可以分配快捷键了
+v1.0 发布  
+v1.1 可以分配快捷键了  
 ### 用途 ###
 点击时新建当前文档的新视图，并自动窗口化和设为置顶
 
@@ -51,15 +51,17 @@ subWindow.showNormal()
 # Check the 'Always on top' option
 menu = subWindow.children()[0]
 menu.actions()[5].trigger()
-```      
-你可以直接用Krita的脚本调试工具运行，你可以利用这些代码去开发类似的功能。
+```  
+
+可以直接用Krita的脚本调试工具运行，你可以利用这些代码去开发类似的功能。  
 
 ### 鸣谢 ###
 * [SubWindowOrganizer](https://github.com/wojtryb/kritaSubwindowOrganizer)
 * [さいとう なおき 老师](https://www.youtube.com/@saitonaoki)
 * bing ai 帮我查文档（同时也贡献了bug）
 
-[![我的ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y0JF6DN)
+[![我的ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y0JF6DN)  
+
 ---
 ### English
 ## Windowed new view - An extension for Krita 5.0+ ##
