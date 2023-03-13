@@ -65,8 +65,9 @@ menu.actions()[5].trigger()
 ---
 ### English
 ## Windowed new view - An extension for Krita 5.0+ ##
-v1.0 release
-v1.1 It can now be assigned a shortcut key
+v1.0 release  
+v1.1 It can now be assigned a shortcut key  
+
 ### Function ###
 Creates a new view of the current document when clicked, automatically windowed it and set 'Always on top'.
 
