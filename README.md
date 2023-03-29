@@ -57,7 +57,7 @@ menu.actions()[5].trigger()
 
 ### 鸣谢 ###
 * [SubWindowOrganizer](https://github.com/wojtryb/kritaSubwindowOrganizer)
-* [さいとう なおき 老师](https://www.youtube.com/@saitonaoki)
+* [さいとう なおき 老师](https://twitter.com/_NaokiSaito)
 * bing ai 帮我查文档（同时也贡献了bug）
 
 [![我的ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y0JF6DN)  
@@ -125,7 +125,7 @@ You can run it in the built-in Scripter directly. You can make use of it if you 
 
 ### Special Thanks ###
 * [SubWindowOrganizer](https://github.com/wojtryb/kritaSubwindowOrganizer)
-* My drawing teacher [さいとう なおき](https://www.youtube.com/@saitonaoki)
+* My drawing teacher [さいとう なおき](https://twitter.com/_NaokiSaito)
 * bing ai for helping me look up the documentations (and also for contributing bugs)
 
 [![buy me a coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y0JF6DN)
