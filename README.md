@@ -9,9 +9,9 @@ v1.2 修复选中图层组时无法使用插件的问题（activationFlags：100
 点击时新建当前文档的新视图，并自动窗口化和设为置顶
 
 ### 安装 ###
-1. 下载zip压缩包（左边有个Downloads, 进去之后点Download repository直接下载）
+1. 下载zip压缩包  
 2. 使用Krita菜单中的工具→脚本→从文件导入 Python 插件
-3. 弹出对话框，点击“是”
+3. 选择压缩包，并确认
 4. 重启Krita
 5. 工具→脚本里面多出来一个Open windowed new view选项
 6. 单击运行
@@ -19,7 +19,7 @@ v1.2 修复选中图层组时无法使用插件的问题（activationFlags：100
 在确认安装成功之后，你就可以删除第一步下载的zip文件了  
 如果安装失败的话（绝无可能！），手动将windowed_new_view文件夹和windowed_new_view.desktop粘贴进
 
-C:\Users\\**用户名**\AppData\Roaming\krita\pykrita
+C:\Users\\*用户名*\AppData\Roaming\krita\pykrita
 
 并重启Krita, 随后在设置→配置Krita→Python插件管理 中勾选 Windowed new view 启用插件，再次重启Krita即可  
 
@@ -59,7 +59,7 @@ menu.actions()[5].trigger()
 
 ### 鸣谢 ###
 * [SubWindowOrganizer](https://github.com/wojtryb/kritaSubwindowOrganizer)
-* [さいとう なおき 老师](https://www.youtube.com/@saitonaoki)
+* [さいとう なおき 老师](https://www.youtube.com/@saitonaoki2)
 * bing ai 帮我查文档（同时也贡献了bug）
 
 
@@ -74,9 +74,9 @@ v1.2 Fixed the issue of not being able to use plugins when selecting a layer gro
 Creates a new view of the current document when clicked, automatically windowed it and set 'Always on top'.
 
 ### Installation ###
-1. Download the zip archive (There is a "Downloads" on the left, go in and click on Download repository)
+1. Download the zip archive 
 2. Use Tools → Scripts → Import Python Plugin from File in the Krita menu
-3. A dialog box will pop up, click "Yes"
+3. Select the zip and confirm
 4. Restart Krita
 5. Tools→Scripts now has an Open windowed new view option
 6. Click
@@ -86,7 +86,7 @@ This is the general installation method for Krita python plugins.
 
 If the installation fails (impossible!), manually copy&paste the windowed_new_view folder and windowed_new_view.desktop into
 
-C:\Users\\**Username**\AppData\Roaming\krita\pykrita
+C:\Users\\*Username*\AppData\Roaming\krita\pykrita
 
 and restart Krita. Open Settings > configure Krita > Python Plugin Manager, check the column with the name 'Windowed new view' to enable the plugin.
 
@@ -127,5 +127,5 @@ You can run it in the built-in Scripter directly. Feel free to make use of it if
 
 ### Special Thanks ###
 * [SubWindowOrganizer](https://github.com/wojtryb/kritaSubwindowOrganizer)
-* My drawing teacher [さいとう なおき](https://www.youtube.com/@saitonaoki)
+* My drawing teacher [さいとう なおき](https://www.youtube.com/@saitonaoki2)
 * bing ai for helping me look up the documentations (and also for contributing bugs)
