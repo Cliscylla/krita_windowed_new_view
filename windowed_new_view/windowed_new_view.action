@@ -9,7 +9,7 @@
         <whatsThis></whatsThis>
         <toolTip></toolTip>
         <iconText></iconText>
-        <activationFlags>10000</activationFlags>
+        <activationFlags>0001</activationFlags>
         <activationConditions>0</activationConditions>
         <shortcut></shortcut>
         <isCheckable>false</isCheckable>

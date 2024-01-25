@@ -3,6 +3,8 @@
 ## Windowed new view - 适用于Krita 5.0+的简易插件 ##
 v1.0 发布  
 v1.1 可以分配快捷键了  
+v1.2 修复选中图层组时无法使用插件的问题（activationFlags：10000→0001），感谢krita-artists论坛的@freyalupen  
+
 ### 用途 ###
 点击时新建当前文档的新视图，并自动窗口化和设为置顶
 
@@ -24,9 +26,9 @@ C:\Users\\**用户名**\AppData\Roaming\krita\pykrita
 这是所有Krita插件通用的安装方式  
 ### 插件信息 ###
 
-* 测试版本： Krita 5.1.5
+* 测试版本： Krita 5.1.5-5.2
 * 电脑没有爆炸
-* 作者：库里斯库拉（Acfun）
+* 作者：库里斯库拉（号在Acfun）
 
 ### 其他 ###
 这个插件的核心代码是
@@ -60,13 +62,13 @@ menu.actions()[5].trigger()
 * [さいとう なおき 老师](https://www.youtube.com/@saitonaoki)
 * bing ai 帮我查文档（同时也贡献了bug）
 
-[![我的ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y0JF6DN)  
 
 ---
 ### English
 ## Windowed new view - An extension for Krita 5.0+ ##
 v1.0 release  
 v1.1 It can now be assigned a shortcut key  
+v1.2 Fixed the issue of not being able to use plugins when selecting a layer group, (activationFlags changed：10000→0001), many thanks to @freyalupen in krita-artists forums!
 
 ### Function ###
 Creates a new view of the current document when clicked, automatically windowed it and set 'Always on top'.
@@ -92,7 +94,7 @@ Restart Krita again, done.
 
 ### Some Information ###
 
-* Tested with Krita 5.1.5
+* Tested with Krita 5.1.5-5.2
 * My computer didn't explode
 * Author: me(Cliscylla)
 
@@ -121,11 +123,9 @@ menu = subWindow.children()[0]
 menu.actions()[5].trigger()
 ```      
 
-You can run it in the built-in Scripter directly. You can make use of it if you want to implement something similar.
+You can run it in the built-in Scripter directly. Feel free to make use of it if you want to implement something similar.
 
 ### Special Thanks ###
 * [SubWindowOrganizer](https://github.com/wojtryb/kritaSubwindowOrganizer)
 * My drawing teacher [さいとう なおき](https://www.youtube.com/@saitonaoki)
 * bing ai for helping me look up the documentations (and also for contributing bugs)
-
-[![buy me a coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y0JF6DN)
