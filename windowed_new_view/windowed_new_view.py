@@ -1,6 +1,4 @@
 from krita import *
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QMdiSubWindow
 
 class WindowedNewView(Extension):
 
@@ -9,14 +7,14 @@ class WindowedNewView(Extension):
 
     def createNewView(self):
         # Get the current document and active view
-        doc = krita.Krita.instance().activeDocument()
-        
+        doc = Krita.instance().activeDocument()
+
         # When no image is open, break
         if doc is None:
             return
-        
+
         # Create a new view for current document
-        new_view = krita.Krita.instance().activeWindow().addView(doc)
+        new_view = Krita.instance().activeWindow().addView(doc)
 
         # Get the active subwindow
         subWindow = new_view.window().qwindow().centralWidget().currentWidget().activeSubWindow()
