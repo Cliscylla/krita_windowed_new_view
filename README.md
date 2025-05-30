@@ -1,5 +1,5 @@
 ## README ##
-[English readme](#markdown-header-english)
+[English readme](#english)
 ## Windowed new view - 适用于Krita 5.0+的简易插件 ##
 v1.0 发布  
 v1.1 可以分配快捷键了  
